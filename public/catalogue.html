@@ -41,7 +41,7 @@
     </nav>
     <!-- Mobile links -->
     <div
-      class="w-full h-screen bg-slate-100 flex flex-col items-center justify-evenly opacity-0 -translate-y-full transition duration-300 fixed"
+      class="w-full h-screen bg-slate-100 flex flex-col items-center justify-evenly opacity-0 -translate-y-full transition duration-300 fixed z-10"
       id="menu-link"
     >
       <div>
@@ -57,9 +57,26 @@
         <a href="" class="link sm:link-sm">Contact</a>
       </div>
     </div>
-    <!-- Catalogue section -->
-    <div class="container mx-auto p-2 border border-red-600"></div>
+    <!-- Search input bar section -->
+    <div class="w-full flex flex-col px-2">
+      <h1 class="mt-20 text-slate-700">Product Catalogue</h1>
+      <div class="w-full mt-7 mx-auto">
+        <form action="" method="post">
+          <div class="relative z-0">
+            <input type="text" name="keyword" id="keyword" placeholder="Search product"
+            class="w-full py-4 border border-slate-500 focus:ring-sky-500 focus:outline-none focus:border-sky-500 focus:ring-2 rounded-md px-4 text-xl">
+            <button type="button" class="mt-3 px-5 py-4 bg-blue-600 text-white
+            text-xl rounded-lg absolute -top-3 right-0 hover:bg-blue-700 active:bg-blue-800 transition-all duration-300">Search</button>
+          </div>
+        </form>
+      </div>
     </div>
+    <!-- end search bar -->
+    <!-- Item list section -->
+    <div class="container mx-auto mt-8 border border-red-600">
+      <div class="w-[98%] border border-green-600 mx-auto"></div>
+    </div>
+    <!-- end Item list section -->
   </body>
   <script src="js/script.js"></script>
 </html>
