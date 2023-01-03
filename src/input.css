@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    
+    html{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    nav{
+        @apply w-full h-16 fixed z-20;
+    }
+
+    h1{
+        @apply text-4xl text-slate-800 font-bold;
+    }
+
+}
+
+@layer components{
+
+    .icon{
+        @apply w-14 h-2 bg-blue-500 mt-2 rounded transition duration-300;
+    }
+
+    .buy-button{
+        @apply w-full bg-blue-600 text-white p-3 text-2xl rounded-md shadow-lg shadow-blue-600;
+    }
+
+    .buy-button-sm{
+        @apply text-4xl
+    }
+
+    .link{
+        @apply text-2xl hover:text-blue-800 hover:text-3xl transition-all duration-300
+    }
+
+    .link-sm{
+        @apply text-4xl hover:text-5xl;
+    }
+
+    .card{
+        @apply w-80 h-96 bg-white shadow-xl mx-auto rounded-lg;
+    }
+
+    .card-md{
+        @apply w-64 h-[550px];
+    }
+
+    .card-xl{
+        @apply w-96
+    }
+
+    .grid-preview{
+        @apply aspect-[4/4] rounded-md overflow-hidden;
+    }
+    
+    .grid-preview-sm{
+        @apply aspect-[9/16];
+    }
+
+    .grid-preview-img{
+        @apply w-full h-full bg-cover bg-center
+    }
+
+    .testimonial-card{
+        @apply w-[90%] mx-auto shadow-xl bg-white px-3 py-6 rounded-xl; 
+    }
+
+    .nav-link{
+        @apply text-lg hover:text-2xl transition-all duration-300 text-slate-700 hover:text-blue-700
+    }
+
+}

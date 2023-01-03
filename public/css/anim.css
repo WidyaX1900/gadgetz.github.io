@@ -1,0 +1,19 @@
+.slide{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.icon-1{
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+}
+
+.icon-2{
+    opacity: 0;
+    transform: scale(0);
+}
+
+.icon-3{
+    transform-origin: 0 1px;
+    transform: rotate(-45deg) translateY(2px) translateX(-5px);
+}

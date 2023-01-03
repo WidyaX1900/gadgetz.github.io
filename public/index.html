@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gadgetz.io</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/anim.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="bg-slate-100 flex justify-between items-center">
+      <div class="w-[30%] ml-4 sm:ml-6">
+        <h1 class="text-3xl text-blue-700 font-bold my-3 sm:text-4xl md:text-5xl">
+          Gadgetz
+        </h1>
+      </div>
+      <ul class="w-2/5 hidden xl:flex xl:justify-evenly">
+        <li>
+          <a href="#" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Product</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger-icon w-1/5 h-14 mr-1 flex flex-col sm:w-14 sm:mr-6 xl:hidden">
+        <span class="icon"></span>
+        <span class="icon"></span>
+        <span class="icon"></span>
+      </div>
+    </nav>
+    <!-- Mobile links -->
+    <div
+      class="w-full h-screen bg-slate-100 flex flex-col items-center justify-evenly opacity-0 -translate-y-full transition duration-300 fixed"
+      id="menu-link"
+    >
+      <div>
+        <a href="" class="link sm:link-sm">Home</a>
+      </div>
+      <div>
+        <a href="" class="link sm:link-sm">Product</a>
+      </div>
+      <div>
+        <a href="" class="link sm:link-sm">About</a>
+      </div>
+      <div>
+        <a href="" class="link sm:link-sm">Contact</a>
+      </div>
+    </div>
+    <!-- hero section -->
+    <header class="w-full flex flex-col xl:flex-row">
+      <div class="w-[98%] mt-[84px] mx-auto sm:w-4/5 xl:w-1/2 xl:mr-28">
+        <img src="img/laptop.png" alt="laptop image" class="w-full" />
+      </div>
+      <div class="w-[98%] mt-6 mx-auto px-2 sm:mt-20 md:mt-14 xl:mt-56 xl:w-1/2 xl:px-7">
+        <h2 class="text-center text-3xl text-slate-700 font-bold sm:text-5xl xl:text-left">
+          New Laptop New Spirit
+        </h2>
+        <p class="text-2xl mt-5 text-center sm:text-4xl xl:text-2xl xl:text-left">
+          Our new product is lauch. Grab it and enjoy your productivity day.
+        </p>
+        <div class="w-[98%] mt-7 mx-auto mb-8 xl:w-80 xl:mx-0">
+          <button
+            type="button"
+            class="buy-button hover:bg-blue-800 transition duration-300 active:bg-blue-900 sm:buy-button-sm sm:px-5 sm:py-5 xl:text-2xl xl:px-2"
+          >
+            Buy Now
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- end section -->
+    <!-- our features section -->
+    <section class="w-full mx-auto mt-3 sm:mt-6">
+      <h1 class="text-center sm:text-5xl">Features</h1>
+      <div class="w-full flex flex-col mt-5 bg-blue-200 md:flex-row md:gap-5 md:px-5">
+        <div class="card mt-6 md:card-md md:mt-4 xl:card-xl">
+          <div class="w-28 h-28 mx-auto mt-4">
+            <span class="material-symbols-outlined">
+              <span class="text-8xl text-blue-900"> bolt </span>
+            </span>
+          </div>
+          <div class="w-[90%] mx-auto">
+            <h2 class="text-4xl font-medium text-slate-800 text-center">
+              Fast Charging
+            </h2>
+          </div>
+          <div class="w-[90%] mx-auto mt-3">
+            <p class="text-2xl text-slate-800">
+              We know you have a lot of activity that need some technology.
+              We'll provide you with fast charging.
+            </p>
+          </div>
+        </div>
+        <div class="card mt-4 md:card-md xl:card-xl">
+          <div class="w-28 h-28 mx-auto mt-4">
+            <span class="material-symbols-outlined">
+              <span class="text-8xl text-blue-900"> star </span>
+            </span>
+          </div>
+          <div class="w-[90%] mx-auto">
+            <h2 class="text-4xl font-medium text-slate-800 text-center">
+              Best Quality
+            </h2>
+          </div>
+          <div class="w-[90%] mx-auto mt-3">
+            <p class="text-2xl text-slate-800">
+              We use best quality technology and materials to produce this
+              item. We want to make sure you get the best product.
+            </p>
+          </div>
+        </div>
+        <div class="card mt-4 mb-9 md:card-md xl:card-xl">
+          <div class="w-28 h-28 mx-auto mt-4">
+            <span class="material-symbols-outlined">
+              <span class="text-8xl text-blue-900"> luggage </span>
+            </span>
+          </div>
+          <div class="w-[90%] mx-auto">
+            <h2 class="text-4xl font-medium text-slate-800 text-center">
+              Ligth weight
+            </h2>
+          </div>
+          <div class="w-[90%] mx-auto mt-3">
+            <p class="text-2xl text-slate-800">
+              Light weight but powerfull. Very suited to the travelers soul.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end features section -->
+    <!-- another section -->
+    <div class="container mx-auto">
+      <section class="w-full mx-auto mt-6 sm:mt-9 md:mt-16">
+        <h1 class="text-center sm:text-5xl">Try Another</h1>
+        <div
+          class="grid grid-cols-2 w-[98%] mt-3 p-2 gap-2 mx-auto sm:grid-cols-3 sm:gap-8"
+        >
+          <div class="grid-preview sm:grid-preview-sm sm:col-start-2 xl:aspect-video">
+            <div class="grid-preview-img bg-[url('../img/1.jpg')]"></div>
+          </div>
+          <div class="grid-preview sm:grid-preview-sm xl:aspect-video">
+            <div class="grid-preview-img bg-[url('../img/2.jpg')]"></div>
+          </div>
+          <div class="grid-preview sm:grid-preview-sm xl:aspect-video">
+            <div class="grid-preview-img bg-[url('../img/3.jpg')]"></div>
+          </div>
+          <div class="grid-preview sm:grid-preview-sm xl:aspect-video">
+            <div class="grid-preview-img bg-[url('../img/4.jpg')]"></div>
+          </div>
+          <div
+            class="grid-preview sm:grid-preview-sm sm:row-start-3 sm:col-start-1 xl:aspect-video"
+          >
+            <div class="grid-preview-img bg-[url('../img/5.jpg')]"></div>
+          </div>
+          <div class="grid-preview sm:grid-preview-sm sm:col-start-2 xl:aspect-video xl:col-start-3 xl:row-start-3">
+            <div class="grid-preview-img bg-[url('../img/6.jpg')]"></div>
+          </div>
+          <div class="grid-preview sm:grid-preview-sm sm:col-start-1 xl:aspect-video">
+            <div class="grid-preview-img bg-[url('../img/7.jpg')]"></div>
+          </div>
+          <div class="grid-preview sm:grid-preview-sm sm:col-start-3 xl:aspect-video">
+            <div class="grid-preview-img bg-[url('../img/8.jpg')]"></div>
+          </div>
+        </div>
+      </section>
+      <!-- end another section -->
+      <!-- testimonial section -->
+      <section class="w-full mx-auto mt-9 mb-8 sm:mt-14 sm:mb-12 md:mt-24 md:mb-20">
+        <h1 class="text-center sm:text-5xl">What they said</h1>
+        <div class="testimonial-card xl:w-3/5">
+          <div class="w-[98%] mx-auto sm:w-[90%] sm:flex">
+            <div
+              class="w-24 h-24 bg-[url('../img/profile.jpg')] rounded-full bg-cover bg-center mx-auto"
+            ></div>
+            <div class="w-4/5 mt-4 mx-auto sm:mx-0 sm:flex sm:items-center">
+              <h4
+                class="text-3xl text-center text-slate-800 font-bold sm:text-left sm:ml-4 xl:ml-0"
+              >
+                Marco Sudarmo
+              </h4>
+            </div>
+          </div>
+          <div class="w-[98%] mt-3 mx-auto sm:mt-7">
+            <p class="text-2xl sm:text-3xl xl:text-2xl text-slate-400 italic">
+              "This product is great. It can handle running of software and my
+              games. Very powerfull gadget and easy to carry. I love it!"
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- end testimonial section -->
+    </div>
+    <!-- footer -->
+    <footer class="w-full bg-blue-900 mt-14 px-2 py-3 sm:flex sm:justify-between">
+      <div class="w-[98%] mx-auto mt-4 sm:w-1/2">
+        <h5 class="text-3xl font-bold text-slate-50 text-center sm:text-left
+        sm:ml-2">FAQ</h5>
+        <div
+          class="w-[98%] mx-auto mt-2 px-1 mb-4 text-center hover:opacity-60 transition duration-300 sm:text-left" 
+        >
+          <a href="#" class="text-slate-50 text-2xl">
+            Why we have to use your product?
+          </a>
+        </div>
+        <div
+          class="w-[98%] mx-auto mt-2 px-1 mb-4 text-center hover:opacity-60 transition duration-300 sm:text-left"
+        >
+          <a href="#" class="text-slate-50 text-2xl">
+            How much must i spent to buy this item?
+          </a>
+        </div>
+        <div
+          class="w-[98%] mx-auto mt-2 px-1 mb-4 text-center hover:opacity-60 transition duration-300 sm:text-left"
+        >
+          <a href="#" class="text-slate-50 text-2xl">
+            Is it high quality or just a marketing trick?
+          </a>
+        </div>
+      </div>
+      <div class="w-[98%] mx-auto mt-10 sm:mt-5 sm:w-[30%]">
+        <h5 class="text-3xl font-bold text-slate-50 text-center sm:text-left">Socials</h5>
+        <div class="w-[98%] mx-auto mt-2">
+          <div class="mb-8">
+            <p class="text-center text-2xl text-slate-50 sm:text-left">IG: @gadgetz</p>
+          </div>
+          <div class="mb-8">
+            <p class="text-center text-2xl text-slate-50 sm:text-left">089-0900-2110</p>
+          </div>
+          <div class="mb-6">
+            <p class="text-center text-2xl text-slate-50 sm:text-left">FB: Gadgetz</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+  </body>
+  <script src="js/script.js"></script>
+</html>
