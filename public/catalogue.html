@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalogue Page</title>
+    <link rel="stylesheet" href="css/catalogue.css" />
+    <link rel="stylesheet" href="css/anim.css">
+  </head>
+  <body>
+    <nav class="bg-slate-100 flex justify-between items-center">
+      <div class="w-[30%] ml-4 sm:ml-6">
+        <h1
+          class="text-3xl text-blue-700 font-bold my-3 sm:text-4xl md:text-5xl"
+        >
+          Gadgetz
+        </h1>
+      </div>
+      <ul class="w-2/5 hidden xl:flex xl:justify-evenly">
+        <li>
+          <a href="home.html" class="nav-link"> Home </a>
+        </li>
+        <li>
+          <a href="" class="nav-link">Product</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div
+        class="hamburger-icon w-1/5 h-14 mr-1 flex flex-col sm:w-14 sm:mr-6 xl:hidden"
+      >
+        <span class="icon"></span>
+        <span class="icon"></span>
+        <span class="icon"></span>
+      </div>
+    </nav>
+    <!-- Mobile links -->
+    <div
+      class="w-full h-screen bg-slate-100 flex flex-col items-center justify-evenly opacity-0 -translate-y-full transition duration-300 fixed"
+      id="menu-link"
+    >
+      <div>
+        <a href="home.html" class="link sm:link-sm">Home</a>
+      </div>
+      <div>
+        <a href="" class="link sm:link-sm">Product</a>
+      </div>
+      <div>
+        <a href="" class="link sm:link-sm">About</a>
+      </div>
+      <div>
+        <a href="" class="link sm:link-sm">Contact</a>
+      </div>
+    </div>
+    <!-- Catalogue section -->
+    <div class="container mx-auto p-2 border border-red-600"></div>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
