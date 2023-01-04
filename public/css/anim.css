@@ -24,4 +24,8 @@
     transform: rotate(-45deg) translateY(2px) translateX(-5px);
 }
 
+.features span{
+    font-size: 5.5rem;
+}
+
 
